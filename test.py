@@ -5,6 +5,7 @@ import sys
 import random
 import os
 
+# TODO: Implement using argparser
 if len(sys.argv) < 7:
 	sys.stderr.write('Usage: %s <ip> <port> <#trials> <#writes and reads per trial> <max # bytes to write at a time> <#connections> \n' % (sys.argv[0]))
 	sys.exit(1)
